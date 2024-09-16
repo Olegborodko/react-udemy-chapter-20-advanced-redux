@@ -1,0 +1,14 @@
+reducers must be pure, side effect free, and synchronous.
+
+such code we can use inside
+- execute it in the components, in useEffect()
+- inside the action creators
+
+when it comes to the question of where to put our code,
+we often have the choice
+between fat reducers, fat components or fat actions.
+
+Синхронный код лучше писать в редюсерах и не писать в 
+компонентах или в action creators
+
+Асинхронный наоборот
